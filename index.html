@@ -4,11 +4,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>T-shirt que me faltava!</title>
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="node_modules/bootstrap-icons/font/bootstrap-icons.min.css">
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js" defer></script>
+    <!-- Main CSS -->
     <link rel="stylesheet" href="style.css">
+    <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@400;600;700;800&display=swap" rel="stylesheet">
-    <script src="https://kit.fontawesome.com/04f785d8d1.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <header>
@@ -23,18 +28,21 @@
             <div class="menu__icons">
                 <div class="menu__icons--busca">
                     <input type="search" placeholder="Search...">                
-                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <a href="#"><i class="bi bi-search"></i></a>
                 </div>
-                <i class="fa-solid fa-user"></i>
-                <i class="fa-solid fa-cart-shopping"></i>
-                <i class="fa-solid fa-heart"></i>
+                <a href="#"><i class="bi bi-person-fill"></i></a>
+                <a href="#"><i class="bi bi-cart3"></i></a>
+                <a href="#"><i class="bi bi-heart-fill"></i></a>
             </div>
         </div>
     </header>
     <main>
         <section class="banner">
-            
+            <img class="banner__img" src="img/modelo.png" alt="modelo">
+            <p>Explore nossa coleção</p>
+            <img src="img/banner-arrow.svg" alt="seta para baixo">
         </section>
+        
     </main>
 
 </body>

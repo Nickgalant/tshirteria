@@ -17,6 +17,11 @@ body {
     font-family: 'Mulish', sans-serif;
 }
 
+a {
+    text-decoration: none;
+    color: var(--preto);
+}
+
 input {
     border: none;
 }
@@ -40,8 +45,6 @@ input {
 
 .menu__nav--link {
     padding: 10px;
-    text-decoration: none;
-    color: var(--preto);
     transition: all 0.3s ease;
 }
 
@@ -66,4 +69,18 @@ input {
 .banner {
     background-color: var(--rosa-escuro);
     height: calc(100vh - 70px);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner__img {
+    height: 80%;
+}
+
+.banner p {
+    color: #F5F5F5;
+    font-size: 1.675rem;
 }
